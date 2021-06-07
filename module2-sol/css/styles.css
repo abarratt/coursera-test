@@ -1,0 +1,178 @@
+/*Base styles*/
+*{
+	box-sizing:  border-box;
+	font-family:  Arial, Helvetica, sans-serif;
+}
+h1 {
+	margin-bottom: 30px;
+	font-size: 175%;
+	color:  #FF7400;
+	text-align:  center;
+}
+
+h2 {
+	font-size: 125%;
+	text-align: right;
+	margin-block-start: 0.00em;
+	border: 1px solid black;
+	padding: 2px;
+	}
+
+section {
+	width: 90%;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	margin-right: 20px;
+}
+
+p {
+	padding: 3px;
+	text-align: center;
+}
+
+.box1 h2 {
+	background-color: #570000;
+}
+
+.box2 h2 {
+	background-color: #000134 ;
+}
+
+.box3 h2 {
+	background-color: #762700;
+}
+
+.box1 {
+  background-color: #900C3F;
+  border: 1px solid black;
+  width: 90%;
+  height: 205px;
+  float: left;
+  color: white; 
+}
+
+.box2 {
+  background-color: #1C1262;
+  border: 1px solid black;
+  width: 90%;
+  height: 205px;
+  color: white;
+  float: left;
+}
+
+.box3 {
+  background-color: #CF4E00;
+  border: 1px solid black;
+  width: 90%;
+  height: 205px;
+  float:  left;
+  color: white;
+}
+
+/*Large devices only*/
+
+@media (min-width: 992px){
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+		float: left;
+	}
+	  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+  section.box2 {
+	margin-left: 12.5px;
+	margin-right: 10px;
+}
+   section.box3 {
+		margin-left: 0px;
+	}
+} 
+
+/* Medium devices only*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {
+    width: 8.33%;
+  }
+  .col-md-2 {
+    width: 16.66%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33%;
+  }
+  .col-md-5 {
+    width: 41.66%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33%;
+  }
+  .col-md-8 {
+    width: 66.66%;
+  }
+  .col-md-9 {
+    width: 74.99%;
+  }
+  .col-md-10 {
+    width: 83.33%;
+  }
+  .col-md-11 {
+    width: 91.66%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+  .box3 {
+  	position: relative;
+  	left: 20px ;
+  }
+  section.box2 {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+}
+
+/*Responsive framework*/
+.row {
+	width:  100%;
+}
